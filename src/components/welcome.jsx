@@ -8,8 +8,8 @@ return (
 <div className="maincontainer">
      <h2>Welcome</h2>
             <div className="inputcontainer">
-              <input type="email" id="email" name="email" pattern=".+@name\.com" size="30" required />
-              <input type="password" id="pass" name="password" minlength="8" required></input>
+                <input type="email" name="email" placeholder="email" required />
+                <input type="password" name="password" placeholder="password" minLength="8" required />
             </div>
 </div>
 </>
